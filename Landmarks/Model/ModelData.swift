@@ -7,7 +7,10 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData{
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 // function ini digunakan untuk memuat dan mongonversi data dari tipe JSON sehingga bisa digunakan untuk mengelola data tersebut dengan mudah
 func load<T: Decodable>(_ filename: String) -> T {
