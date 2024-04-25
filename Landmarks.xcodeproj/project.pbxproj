@@ -94,6 +94,7 @@
 			children = (
 				3FFD3CC62BD0DB46005D1138 /* ContentView.swift */,
 				3FA2EA092BD21B9800AB3EF6 /* Landmarks */,
+				3FA2EA0A2BD21BA400AB3EF6 /* Helper */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,7 +123,6 @@
 				3FA2EA032BD1FEBB00AB3EF6 /* LandmarkList.swift */,
 				3FA2EA012BD1F8BF00AB3EF6 /* LandmarkRow.swift */,
 				3FA2EA052BD2018100AB3EF6 /* LandmarkDetail.swift */,
-				3FA2EA0A2BD21BA400AB3EF6 /* Helper */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
