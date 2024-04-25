@@ -7,19 +7,21 @@
 
 import Foundation
 
+
 @Observable
-class ModelData{
+class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
 }
 
-// function ini digunakan untuk memuat dan mongonversi data dari tipe JSON sehingga bisa digunakan untuk mengelola data tersebut dengan mudah
+
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
 
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-    else {
-        fatalError("Couldn't find \(filename) in main bundle.")
+        else {
+            fatalError("Couldn't find \(filename) in main bundle.")
     }
 
 
