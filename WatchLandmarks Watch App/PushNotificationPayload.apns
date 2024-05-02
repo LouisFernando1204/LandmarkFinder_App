@@ -12,5 +12,5 @@
     "landmarkIndex": 1,
 
 
-    "Simulator Target Bundle": "com.example.nothing.Landmarks.watchkitapp"
+    "Simulator Target Bundle": "nothing.Landmarks.watchkitapp"
 }

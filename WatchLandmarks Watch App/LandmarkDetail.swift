@@ -57,3 +57,4 @@ struct LandmarkDetail: View {
     return LandmarkDetail(landmark: modelData.landmarks[0])
         .environment(modelData)
 }
+
