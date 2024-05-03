@@ -28,7 +28,6 @@ private struct SelectedLandmarkKey: FocusedValueKey {
     typealias Value = Binding<Landmark>
 }
 
-
 extension FocusedValues {
     var selectedLandmark: Binding<Landmark>? {
         get { self[SelectedLandmarkKey.self] }
